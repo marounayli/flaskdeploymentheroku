@@ -19,5 +19,3 @@ def addToData(key):
 @server.route('/data', methods = ['GET'])
 def getData():
     return jsonify(data)
-
-server.run(host='0.0.0.0', port=5000)
